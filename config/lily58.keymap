@@ -212,6 +212,13 @@
             bindings = <&kp LC(V)>;
             label = "BEMASOL";
         };
+
+        alt_f4: alt_f4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(F4)>;
+            label = "ALT_F4";
+        };
     };
 
     combos {
@@ -264,11 +271,11 @@
 
         layer_4 {
             bindings = <
-&ALTTAB  &trans  &trans  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp F1   &kp F2  &kp F3  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp F4   &kp F5  &kp F6  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp F7   &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans   &trans   &trans   &trans    &trans  &trans  &trans  &trans
+&ALTTAB  &alt_f4  &trans  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1   &kp F2   &kp F3  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp F4   &kp F5   &kp F6  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp F7   &kp F8   &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans   &trans   &trans   &trans    &trans  &trans  &trans  &trans
             >;
         };
 

@@ -198,6 +198,20 @@
             bindings = <&kp LC(LA(F6))>;
             label = "TAB6";
         };
+
+        masolas: masolas {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(C)>;
+            label = "MASOLAS";
+        };
+
+        bemasol: bemasol {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(V)>;
+            label = "BEMASOL";
+        };
     };
 
     combos {
@@ -260,11 +274,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans   &trans  &trans         &trans  &trans                    &trans  &trans             &trans     &trans     &kp LEFT_BRACKET  &kp BACKSLASH
-&trans  &trans   &trans  &kp SEMICOLON  &trans  &trans                    &trans  &kp RIGHT_BRACKET  &hosszu_i  &kp EQUAL  &trans            &trans
-&trans  &kp SQT  &trans  &trans         &trans  &trans                    &trans  &trans             &trans     &trans     &trans            &trans
-&trans  &trans   &trans  &trans         &trans  &trans  &trans    &trans  &trans  &trans             &trans     &trans     &trans            &trans
-                         &trans         &trans  &trans  &trans    &trans  &trans  &trans             &trans
+&trans  &trans   &trans  &trans         &trans    &trans                    &trans  &trans             &trans     &trans     &kp LEFT_BRACKET  &kp BACKSLASH
+&trans  &trans   &trans  &kp SEMICOLON  &trans    &trans                    &trans  &kp RIGHT_BRACKET  &hosszu_i  &kp EQUAL  &trans            &trans
+&trans  &kp SQT  &trans  &trans         &trans    &trans                    &trans  &trans             &trans     &trans     &trans            &trans
+&trans  &trans   &trans  &masolas       &bemasol  &trans  &trans    &trans  &trans  &trans             &trans     &trans     &trans            &trans
+                         &trans         &trans    &trans  &trans    &trans  &trans  &trans             &trans
             >;
         };
 

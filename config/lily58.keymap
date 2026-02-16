@@ -277,11 +277,11 @@
             //                     |      |      |      |      |  |       |      |       |       |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans     &trans    &trans    &trans     &kp LS(LC(A))  &trans
-&tab1   &tab2   &trans  &trans  &trans  &trans                    &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp LC(LS(K))  &trans
-&tab3   &tab4   &trans  &trans  &trans  &trans                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans         &trans
-&tab5   &tab6   &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans    &trans     &trans         &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &kp DEL                    &trans     &trans    &trans    &trans     &kp LS(LC(A))  &trans
+&tab1   &tab2   &trans  &trans  &trans  &trans                     &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp LC(LS(K))  &trans
+&tab3   &tab4   &trans  &trans  &trans  &trans                     &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans         &trans
+&tab5   &tab6   &trans  &trans  &trans  &trans   &trans    &trans  &trans     &trans    &trans    &trans     &trans         &trans
+                        &trans  &trans  &trans   &trans    &trans  &trans     &trans    &trans
             >;
         };
     };

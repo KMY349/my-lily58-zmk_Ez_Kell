@@ -308,11 +308,11 @@
 
         jatek {
             bindings = <
-&kp ESC           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                          &kp NUMBER_6   &kp N7  &kp N8     &kp N9      &kp LS(LC(A))  &kp CARET
-&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T                           &kp Y          &kp U   &kp I      &kp O       &kp P          &Alahuz
-&kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G                           &kp H          &kp J   &kp K      &kp L       &nyito_sima    &zaro_sima
-&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B   &trans       &trans     &kp N          &kp M   &kp COMMA  &kp PERIOD  &kp MINUS      &kp GRAVE
-                                              &kp LEFT_ALT  &trans        &trans  &kp SPACE    &kp ENTER  &kp BACKSPACE  &mo 6   &trans
+&kp ESC           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp NUMBER_6   &kp N7  &kp N8     &kp N9      &kp LS(LC(A))  &kp CARET
+&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T                              &kp Y          &kp U   &kp I      &kp O       &kp P          &Alahuz
+&kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G                              &kp H          &kp J   &kp K      &kp L       &nyito_sima    &zaro_sima
+&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B      &trans       &trans     &kp N          &kp M   &kp COMMA  &kp PERIOD  &kp MINUS      &kp GRAVE
+                                              &kp LEFT_ALT  &mo 6         &kp SPACE  &kp SPACE    &kp ENTER  &kp BACKSPACE  &trans  &trans
             >;
         };
 

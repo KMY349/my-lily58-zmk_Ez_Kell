@@ -318,11 +318,11 @@
 
         game_command {
             bindings = <
-&tog 0  &kp F1           &kp F2  &kp F3    &kp F4      &kp F5                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans  &trans    &trans      &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans  &trans    &trans      &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                 &trans    &trans      &trans       &trans    &trans  &trans  &trans  &trans
+&tog 0  &kp F1           &kp F2  &kp F3    &kp F4      &kp F5                         &trans  &trans    &kp UP_ARROW    &trans     &trans  &trans
+&trans  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                    &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans           &trans  &trans    &trans      &trans                         &trans  &trans    &trans          &trans     &trans  &trans
+&trans  &trans           &trans  &trans    &trans      &trans       &trans    &trans  &trans  &trans    &trans          &trans     &trans  &trans
+                                 &trans    &trans      &trans       &trans    &trans  &trans  &trans    &trans
             >;
         };
     };

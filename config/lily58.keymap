@@ -242,10 +242,10 @@
             //                     | ALT  | GUI  | LOWER| SPACE |  | ENTER | RAISE| GUI   | ALT   |
 
             bindings = <
-&kp C_MENU_ESCAPE  &nyito_sima  &zaro_sima  &nyit_kapcs   &zar_kapcs  &kp CARET                             &bash          &kukac  &nyit_cumi  &zar_cumi  &kp NUMBER_0  &kp MINUS
+&kp C_MENU_ESCAPE  &nyito_sima  &zaro_sima  &nyit_kapcs   &zar_kapcs  &kp CARET                             &bash          &trans  &nyit_cumi  &zar_cumi  &kp NUMBER_0  &kp MINUS
 &kp TAB            &kp Q        &kp W       &kp E         &kp R       &kp T                                 &kp Y          &kp U   &kp I       &kp O      &kp P         &Alahuz
 &kp LSHFT          &kp A        &kp S       &kp D         &kp F       &kp G                                 &kp H          &kp J   &kp K       &kp L      &jobb_kacsa   &bal_kacsa
-&kp LCTRL          &kp Z        &kp X       &kp C         &kp V       &kp B      &kp CAPSLOCK    &sk W      &kp N          &kp M   &kp COMMA   &kp DOT    &kp FSLH      &kp LEFT_GUI
+&kp LCTRL          &kp Z        &kp X       &kp C         &kp V       &kp B      &kp CAPSLOCK    &sk W      &kp N          &kp M   &kp COMMA   &kp DOT    &kp FSLH      &trans
                                             &kp LEFT_ALT  &mo 2       &mo 1      &kp SPACE       &kp ENTER  &kp BACKSPACE  &mo 3   &mo 4
             >;
 
@@ -261,21 +261,21 @@
             //                     |      |      |      |      |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE     &kp HASH      &kp DOLLAR    &dollar          &hasthag     &and                             &kp PERCENT  &kp DELETE  &trans      &trans       &trans  &kp PRINTSCREEN
+&kp GRAVE     &kp HASH      &kp DOLLAR    &dollar          &hasthag     &and                             &kp PERCENT  &trans      &kp DELETE  &trans       &trans  &kp PRINTSCREEN
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCLAMATION  &kp AT_SIGN  &kp AMPERSAND                    &nyito_sima  &zaro_sima  &discordra  &vonal       &trans  &trans
 &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans           &trans       &trans                           &nyit_kapcs  &zar_kapcs  &bal_kacsa  &jobb_kacsa  &trans  &trans
-&kp N7        &kp N8        &kp N9        &trans           &trans       &trans         &trans    &trans  &nyit_cumi   &zar_cumi   &trans      &trans       &trans  &trans
+&kp N7        &kp N8        &kp N9        &trans           &trans       &trans         &trans    &trans  &nyit_cumi   &zar_cumi   &kukac      &trans       &trans  &trans
                                           &trans           &trans       &trans         &trans    &trans  &trans       &trans      &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&tog 5  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans   &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans   &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&tog 5  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F11  &kp F12  &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans   &trans  &trans  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -308,21 +308,21 @@
 
         jatek {
             bindings = <
-&kp ESC           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp NUMBER_6   &kp N7  &kp N8     &kp N9      &kp LS(LC(A))  &kp CARET
-&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T                              &kp Y          &kp U   &kp I      &kp O       &kp P          &Alahuz
-&kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G                              &kp H          &kp J   &kp K      &kp L       &nyito_sima    &zaro_sima
-&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B      &trans       &trans     &kp N          &kp M   &kp COMMA  &kp PERIOD  &kp MINUS      &kp GRAVE
-                                              &kp LEFT_ALT  &mo 6         &kp SPACE  &kp SPACE    &kp ENTER  &kp BACKSPACE  &trans  &trans
+&kp ESC           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp LEFT       &kp DOWN  &kp UP_ARROW  &kp RIGHT   &kp LS(LC(A))  &kp CARET
+&kp TAB           &kp Q         &kp W         &kp E         &kp R         &kp T                              &kp Y          &kp U     &kp I         &kp O       &kp P          &Alahuz
+&kp LEFT_SHIFT    &kp A         &kp S         &kp D         &kp F         &kp G                              &kp H          &kp J     &kp K         &kp L       &nyito_sima    &zaro_sima
+&kp LEFT_CONTROL  &kp Z         &kp X         &kp C         &kp V         &kp B      &trans       &trans     &kp N          &kp M     &kp COMMA     &kp PERIOD  &kp MINUS      &kp GRAVE
+                                              &kp LEFT_ALT  &mo 6         &kp SPACE  &kp SPACE    &kp ENTER  &kp BACKSPACE  &trans    &trans
             >;
         };
 
         game_command {
             bindings = <
-&to 0   &kp F1           &kp F2  &kp F3    &kp F4      &kp F5                         &trans  &trans    &kp UP_ARROW    &trans     &trans  &trans
-&trans  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                    &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&trans  &trans           &trans  &trans    &trans      &trans                         &trans  &trans    &trans          &trans     &trans  &trans
-&trans  &trans           &trans  &trans    &trans      &trans       &trans    &trans  &trans  &trans    &trans          &trans     &trans  &trans
-                                 &trans    &trans      &trans       &trans    &trans  &trans  &trans    &trans
+&to 0   &kp F1           &kp F2        &kp F3    &kp F4      &kp F5                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp N0  &kp N5           &kp NUMBER_6  &kp N7    &kp N8      &kp N9                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp EXCLAMATION  &kp AT        &kp HASH  &kp DOLLAR  &kp PERCENT                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans        &trans    &trans      &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                       &trans    &trans      &trans       &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
